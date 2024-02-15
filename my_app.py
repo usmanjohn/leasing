@@ -7,7 +7,7 @@ import io
 
 # The function to generate the lease table with currency formatting
 # (Same function as before, just copied here for completeness)
-percents_df = pd.read_excel('gamma.xlsb', sheet_name= 'betta')
+percents_df = pd.read_excel('gamma.xlsx', sheet_name= 'betta')
 
 
 # Define the function with currency formatting for the specified columns
