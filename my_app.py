@@ -61,7 +61,7 @@ def generate_lease_table(main_value, start_date_str, end_date_str):
 def streamlit_app():
     st.title("Lease Table Generator")
 
-    main_value = st.number_input("Enter the monthly main value:", min_value=0)
+    main_value = st.number_input("Enter the monthly Lease Value:", min_value=0)
     start_date = st.text_input("Enter the start date (YYYY.MM.DD):", "2024.01.01")
     end_date = st.text_input("Enter the end date (YYYY.MM.DD):", "2030.12.31")
 
